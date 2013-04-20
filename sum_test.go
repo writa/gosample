@@ -8,3 +8,16 @@ func TestSum(t *testing.T) {
 		t.Error("error")
 	}
 }
+
+func TestMultiSum(t *testing.T) {
+	sum := MultiSum(1, 2, 3)
+	if sum != 6 {
+		t.Errorf("%d", sum)
+	}
+}
+
+func BenchmarkSum(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Sum(i, i)
+	}
+}
