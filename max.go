@@ -1,4 +1,4 @@
-package gotest
+package gosample
 
 func Max(nums []int) int {
 	tmp := 0

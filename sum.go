@@ -1,5 +1,5 @@
 // gotest is go sample
-package gotest
+package gosample
 
 // Sum is i + j 
 func Sum(i int, j int) int {

@@ -1,4 +1,4 @@
-gotest
+gosample
 ======
 
-test repo for golang
+sample program for Go
